@@ -6,28 +6,31 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
+- les `structures` de base du langage ✔️
 - les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
+- l'utilisation de l'`asynchrone` ✔️
 - les spécifités du mot-clef `this` ❌ / ✔️
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté ✔️
 
-```javascript
-(e) => mc2;
+```Fonction pour créer un message de bienvenue.
+function welcome(name){
+  return `Hello ${name}!`;
+}
+welcome("ophelie"); //On donne un nom car la function a besoin d'un parametre pour fonctionner.
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-Outsiders-P3-SocialTeamConsulting)
 
 Description :
 
-### J'ai utilisé ce langage en production ❌ / ✔️
+### J'ai utilisé ce langage en production ✔️
 
-[lien du projet](...)
+[lien du projet](https://social-team-consulting.remote-fr-3.wilders.dev/)
 
 Description :
 
