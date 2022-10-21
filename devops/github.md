@@ -6,9 +6,9 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'initialisation d'un projet ❌ / ✔️
-- travailler avec des branches ❌ / ✔️
-- faire une PR ❌ / ✔️
+- l'initialisation d'un projet ✔️
+- travailler avec des branches ✔️
+- faire une PR ✔️
 - utiliser git rebase pour faire des commits propres ❌ / ✔️
 - utiliser les gitHub actions ❌ / ✔️
 
@@ -16,28 +16,28 @@
 
 ### Un exemple personnel commenté ❌ / ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-Outsiders-P3-SocialTeamConsulting)
 
-Description :
+Description : Nous nous sommes vu attribuer des rôles, j'étais la gitmaster et devait, avec le leaddev, faire des revues du code, merger les branche qui étaient bonnes, créer des hotfix si nécessaire sur la branche dev avant de pouvoir envoyer sur master.
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable ✔️
 
-[lien du projet](...)
+[lien du projet](https://github.com/Crab-Prog/portfolio_ophelie)
 
-Description :
+Description : Projet de mon portfolio tenu à jour et disponible sur Netlify
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ✔️
 
-Description :
+Description : Utilisation de Gitea et Fork pour gérer les branches. Nous avons des tags pour s'y retrouver, et des releases (ce qui est différent de durant la formation).
 
 ## 🌐 J'utilise des ressources
 
 ### Titre
 
-- lien
-- description
+- https://git-fork.com/
+- Fork - a fast and friendly git client for Mac and Windows
 
 ## 🚧 Je franchis les obstacles
 

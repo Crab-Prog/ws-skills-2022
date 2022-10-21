@@ -31,17 +31,17 @@ app.get('/', function(req, res) {
 app.listen(PORT);
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
 [lien github](https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-Outsiders-P3-SocialTeamConsulting)
 
-Description :
+Description : Projet développé avce nodejs en back
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable ✔️
 
 [lien du projet](https://social-team-consulting.remote-fr-3.wilders.dev/)
 
-Description :
+Description : Projet développé avce nodejs en back, mise en plqce de middleware, utilisation de packages, authentification.
 
 ### Utilisation en environement professionnel ❌ / ✔️
 
