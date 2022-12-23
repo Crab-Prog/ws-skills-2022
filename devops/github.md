@@ -9,12 +9,24 @@
 - l'initialisation d'un projet ✔️
 - travailler avec des branches ✔️
 - faire une PR ✔️
-- utiliser git rebase pour faire des commits propres ❌ / ✔️
-- utiliser les gitHub actions ❌ / ✔️
+- utiliser git rebase pour faire des commits propres ✔️
+- utiliser les gitHub actions ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
+
+git status
+git add
+git commit -m
+git pull origin dev
+git add
+git commit -m "conflict when merging into branch"
+git push
+
+Voici la liste dans l'ordre des commandes que j'effectue généralement.
+Lorsque je travaille sur une branche qui part de la dev, avant d'envoyer un modification pour pouvoir ensuite faire ma PR
+je vérifie la branche et son état sur laquelle je travaille avec git status, j'ajoute et commit les choses dont j'ai besoin, puis je pull les changements qui ont pu avoir lieu sur la branche dev. Dans le cas où il y aurait un conflit je peux le gérer en local afin qu'il n'y ai pas de problème de conflit à résoudre lors de la PR.
 
 ### Utilisation dans un projet ✔️
 

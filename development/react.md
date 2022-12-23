@@ -17,7 +17,7 @@
 
 ### Un exemple personnel commenté ✔️
 
-```
+```javascript
 import React, { useState } from 'react';
 
 function Example() {

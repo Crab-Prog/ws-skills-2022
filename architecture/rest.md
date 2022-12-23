@@ -6,27 +6,40 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les verbes HTTP ❌ / ✔️
-- les statuts HTTP ❌ / ✔️
-- les endpoints ❌ / ✔️
-- CORS ❌ / ✔️
-- la nomenclature recommandée pour les routes ❌ / ✔️
+- les verbes HTTP ✔️
+- les statuts HTTP ✔️
+- les endpoints ✔️
+- CORS ✔️
+- la nomenclature recommandée pour les routes ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+```javascript
+//on l'utilise dans un middlware en haut du fichier,
+//il faut bien penser à lui mettre les credentials à true sinon problème de cors lorsqu'on lance le front.
+//le 200 est un statut HTTP qui permet de dire que c'est un retour OK qui indique la réussite d'une requête.
+app.use(
+  cors({
+    origin: process.env.FRONTEND_URL ?? "http://localhost:3000",
+    optionsSuccessStatus: 200,
+    credentials: true,
+  })
+);
+```
 
-[lien github](...)
+### Utilisation dans un projet ✔️
 
-Description :
+[lien github](https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-Outsiders-P3-SocialTeamConsulting)
 
-### Utilisation en production si applicable❌ / ✔️
+Description : Lors du projet STC, nous avons du mettre les cors afin de pouvoir échanger entre le frontend et le backend
 
-[lien du projet](...)
+### Utilisation en production si applicable ✔️
 
-Description :
+[lien du projet](https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-Outsiders-P3-SocialTeamConsulting)
+
+Description : 
 
 ### Utilisation en environement professionnel ❌ / ✔️
 
@@ -36,8 +49,8 @@ Description :
 
 ### Titre
 
-- lien
-- description
+- https://developer.mozilla.org/fr/docs/Web/HTTP/Status/200#:~:text=Le%20code%20de%20statut%20de,dans%20le%20corps%20du%20message.
+- Voici un exemple sur la documentation qui explique ce que signifie le STATUT 200, il est possible de retrouver tout les autres sur le menu à gauche.
 
 ## 🚧 Je franchis les obstacles
 

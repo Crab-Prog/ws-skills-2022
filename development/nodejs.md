@@ -13,7 +13,7 @@
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
 ```javascript
 // this function takes a path to a .md file of the host system and write the HTML version of this file
