@@ -6,24 +6,44 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les enjeux de l'integration continue ❌ / ✔️
-- la mise en place d'une github action ❌ / ✔️
+- les enjeux de l'integration continue ✔️
+- la mise en place d'une github action ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+Sur le Front de notre site web, nous avons un fichier yaml qui va déclencher la commande pour vérifier si les tests passent, pour améliorer notre intégration continue.
+Ici, le test se lance lorsqu'on effectuera une PR d'une branche vers une autre branche, si le test échoue alors il ne sera pas possible de merger.
+```yml
+name: Tests
 
-[lien github](...)
+on:
+  push:
+  workflow_dispatch:
 
-Description :
+jobs:
+  test-front:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+      - name: Goto src and run tests
+        run: npm i && npm test
+```
 
-### Utilisation en production si applicable❌ / ✔️
 
-[lien du projet](...)
+### Utilisation dans un projet ✔️
 
-Description :
+[lien github](https://github.com/WildCodeSchool/2209-wns-hamilton-flashupload-back/blob/staging/.github/workflows/docker_push_staging.yml)
+
+Description : Lien vers le fichier yqml qui contient le code pour compiler et push sur la pre-prod
+
+### Utilisation en production si applicable ✔️
+
+[lien du projet](https://github.com/WildCodeSchool/2209-wns-hamilton-flashupload-back/blob/staging/.github/workflows/docker_push_staging.yml)
+
+Description : Idem
 
 ### Utilisation en environement professionnel ❌ / ✔️
 
